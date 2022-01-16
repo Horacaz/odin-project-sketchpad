@@ -1,3 +1,21 @@
-*{
-    border: 2px dotted greenyellow;
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid{
+    flex: 1;
+    border: 1px solid black;
+    padding: 8px;
 }
