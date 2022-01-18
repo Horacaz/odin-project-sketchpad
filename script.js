@@ -1,7 +1,7 @@
 
 const MAIN_CONTAINER = document.querySelector(".main-container");
 
-for (i = 0; i < 196; i++){
+for (i = 0; i < 25; i++){
 let grid = document.createElement("div");
 
 grid.className = "grid";
