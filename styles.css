@@ -3,19 +3,25 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
+
 .main-container{
-    max-width: 960px;
     display: flex;
     flex-wrap: wrap;
+    border: 2px solid black;
+    width: 400px;
+    height: 200px;
+
 
 }
-
 .grid{
-    flex: 1;
-    border: 1px solid black;
-    padding: 8px;
+display: inline-block;
+flex-grow: 0 1 auto;
+padding: 10px;
+margin: 0px;
+border: 1px solid black;
+
 }
