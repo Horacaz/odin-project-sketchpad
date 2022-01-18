@@ -10,11 +10,11 @@ body {
 
 .main-container{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
     border: 2px solid black;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 
 
 }
@@ -22,4 +22,12 @@ body {
 
 padding: 0px;
 margin: 0px;
+}
+
+footer{
+    margin-top: 15px;
+}
+
+.black{
+    background-color: black;
 }
