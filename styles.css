@@ -1,5 +1,4 @@
 *{
-
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,6 +16,7 @@ body{
 main {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 
 }
 
@@ -29,22 +29,26 @@ main {
 }
 
 input, button{
+    border: 1px solid #009FFD;
     background-color: #EAF6FF;
     border-radius: 12px;
     margin: 5px;
 }
 
 .options label{
+    border: 2px solid #009FFD;
     background-color: #EAF6FF;
     color: #009FFD;
+    border-radius: 12px;
     padding: 5px;
     margin: 5px;
 }
+
 .main-container {
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
     border: 2px solid black;
     width: 500px;
     height: 500px;
