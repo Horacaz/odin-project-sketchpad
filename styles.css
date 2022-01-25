@@ -1,16 +1,23 @@
-body {
-    text-align: center;
+*{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    color: #009FFD;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    background: linear-gradient(#232528, #2F3237);
+    margin: 0;
+    padding: 0;
+    
 }
 
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    flex-direction: row;
+
 }
 
 .options {
@@ -18,22 +25,40 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 12px;
 }
 
+input, button{
+    background-color: #EAF6FF;
+    border-radius: 12px;
+    margin: 5px;
+}
 
+.options label{
+    background-color: #EAF6FF;
+    color: #009FFD;
+    padding: 5px;
+    margin: 5px;
+}
 .main-container {
+    background-color: white;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(16, 1fr);
     border: 2px solid black;
     width: 500px;
     height: 500px;
-
+    margin: auto;
 
 }
 
+.right-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .grid {
-
     padding: 0px;
     margin: 0px;
 }
